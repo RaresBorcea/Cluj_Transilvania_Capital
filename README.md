@@ -1,2 +1,2 @@
 # Cluj_Transilvania_Capital
-Website
+Interactive, responsive web site presenting one of the biggest cities in Romania, using HTML, CSS and bootstrap.
