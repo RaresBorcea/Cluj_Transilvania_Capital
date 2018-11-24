@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/reset.css"> 
+	<link rel="stylesheet" href="css/styleobiective.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+	<script src="js/modernizr.js"></script>
+	<script src="../../js/ios-orientationchange-fix.min.js"></script>
+  	
+	<title>Obiective | Clujul - Capitala Transilvaniei</title>
+</head>
+<body>
+<header>
+	<nav class="cd-stretchy-nav">
+		<a class="cd-nav-trigger" href="#0">
+	
+			<span aria-hidden="true"></span>
+		</a>
+
+		<ul>
+			<li><a href="../Index.html"><span>Acasă</span></a></li>
+			<li><a href="Istorie.html"><span>Istoric</span></a></li>
+			<li><a href="Legende.html"><span>Legende</span></a></li>
+			<li><a href="#" class="active"><span>Obiective</span></a></li>
+			<li><a href="Timp.html"><span>Timp liber</span></a></li>
+		</ul>
+
+		<span aria-hidden="true" class="stretchy-nav-bg"></span>
+	</nav>
+</header>
+
+
+<main class="cd-main-content">
+	
+	      <p style="text-align:center;"><img src="css\img\obiective\Obiective1.png" usemap="#map1"></p>
+		<map name="map1">
+    <area alt="Biserica Romano-Catolică „Sfântul Mihail”" title="Biserica Romano-Catolică „Sfântul Mihail”" href="Mihail.html" shape="poly" coords="83,167,107,167,108,7,343,8,348,168,376,172,379,195,79,194" />
+    <area alt="Parcul Central „Simion Barnuțiu”" title="Parcul Central „Simion Barnuțiu”" href="Parc.html" shape="poly" coords="439,7,679,7,683,194,439,195" />
+    <area alt="Teatrul Național „Lucian Blaga” și Opera Română" title="Teatrul Național „Lucian Blaga” și Opera Română" href="Teatru.html" shape="poly" coords="783,8,1019,6,1023,202,785,200" />
+    <area alt="Biserica Reformată" title="Biserica Reformată" href="Reforma.html" shape="poly" coords="107,226,353,226,351,407,108,404" />
+    <area alt="Canalul Morii" title="Canalul Morii" href="Canal.html" shape="poly" coords="439,227,680,226,683,411,443,410" />
+    <area alt="Muzeul Zoologic UBB" title="Muzeul Zoologic UBB" href="Zoo.html" shape="poly" coords="783,231,1020,231,1025,411,781,410" />
+    <area alt="Turnul Croitorilor" title="Turnul Croitorilor" href="Turn.html" shape="poly" coords="59,569,108,570,111,431,349,433,351,571,380,575,383,595,55,597" />
+    <area alt="Muzeul de Mineralogie UBB" title="Muzeul de Mineralogie UBB" href="Mineral.html" shape="poly" coords="439,425,681,430,684,597,439,595" />
+    <area alt="Grădina Botanică „Alexandru Borza”" title="Grădina Botanică „Alexandru Borza”" href="Botanica.html" shape="poly" coords="771,573,787,574,789,427,1011,427,1012,573,1035,575,1039,595,768,593" />
+</map>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>	
+<script src="jQuery/jquery.rwdImageMaps.min.js"></script>	
+<script>
+$(document).ready(function(e) {
+	$('img[usemap]').rwdImageMaps();
+	
+	$('area').on('click', function() {
+		alert($(this).attr('alt') + ' - Veți fi direcționat către pagina de prezentare a obiectivului.');
+	});
+});
+</script>		
+	
+	
+
+  <script src="js/main.js"></script> 
+
+  
+</body>
+</html>
