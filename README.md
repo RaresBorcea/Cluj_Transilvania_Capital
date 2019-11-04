@@ -4,3 +4,4 @@ Interactive, responsive web site presenting one of the biggest cities in Romania
 ### Screenshots
 ![](https://imgur.com/rxbakQy) ![](https://imgur.com/vsrazpC) ![](https://imgur.com/7txfT3L)
 <img src="https://imgur.com/rxbakQy" width="400">
+[Imgur](https://imgur.com/rxbakQy)
